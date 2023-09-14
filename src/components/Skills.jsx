@@ -14,7 +14,7 @@ const Skills = () => {
         <div className="w-full px-8">
           <div className="flex flex-col gap-5 lg:flex-row lg:flex-wrap items-center justify-center">
             {skillData.map((skill, index) => (
-              <a href="#" className="w-[150px] h-[150px] border box-border p-5 rounded-full hover:bg-violet-300" key={index} data-aos="fade-down" data-aos-delay={skill.delay} data-aos-offset="200">
+              <a href="#" className="w-[150px] h-[150px] border box-border p-5 rounded-full hover:bg-violet-300" key={index} data-aos="fade-down" data-aos-delay={skill.delay}>
                 <img src={skill.image} alt={skill.name} className="w-full h-full object-contain" />
               </a>
             ))}
