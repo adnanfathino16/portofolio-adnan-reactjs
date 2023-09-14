@@ -19,7 +19,6 @@ function App() {
   });
 
   Aos.init({
-    duration: 1800,
     offset: 200,
   });
 
